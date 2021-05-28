@@ -6,7 +6,11 @@ for v in {10..26}
 do
 	for e in $(seq $v $((2*$v-6)))
 	do
-		echo -e "Arguments =  \"$v $e -T${THRESHOLD[${T}]}" >> geng.sub
+		echo -e "Arguments =  \"$v $e \$(Step)/10 -T${THRESHOLD[${T}]}\"" >> geng.sub
+		echo -e "Output =  \"out/${v}_${e}_\$(Step).out\"" >> geng.sub
+		echo -e "Log =  \"log/${v}_${e}_\$(Step).log\"" >> geng.sub
+		echo -e "Error =  \"err/${v}_${e}_\$(Step).err\"" >> geng.sub
+		echo -e "Queue 10\n" >> geng.sub
 		T=$((T + 1))
 	done
 done
