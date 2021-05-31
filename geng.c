@@ -1844,14 +1844,16 @@ spaextend(graph *g, int n, int *deg, int ne, boolean rigid,
     totalStepCount++;
     totalStepCount %= 1000;
     if(totalStepCount == 0){
-        if(loading){
+        /*if(loading){
             fprintf(stderr,"\r");
         }else{
             loading = 1;
         }
         loadingCount++;
         loadingCount %= 4;
-        fprintf(stderr,"%c >%lu million graphs processed so far...",loadingAni[loadingCount],totalGraphMultiplier);
+        fprintf(stderr,"%c >%lu million graphs processed so far...",loadingAni[loadingCount],totalGraphMultiplier);*/
+        loading = 1;
+        fprintf(stderr,".");
     }
     xword x,d,dlow;
     xword xlim,*xorb;
@@ -1920,6 +1922,11 @@ spaextend(graph *g, int n, int *deg, int ne, boolean rigid,
                             totalGraphCount %= 1000000;
                             if(totalGraphCount == 0){
                                 totalGraphMultiplier++;
+                            if(loading){
+                                loading = 0;
+                                fprintf(stderr,"\n");
+                            }
+                                fprintf(stderr,">%lu million graphs processed so far...\n",totalGraphMultiplier);
                             }
                             ++ecount[ne+xc];
                             (*outproc)(outfile,canonise ? gcan : gx,nx);
@@ -1979,14 +1986,16 @@ genextend(graph *g, int n, int *deg, int ne, boolean rigid, int xlb, int xub, in
     totalStepCount++;
     totalStepCount %= 1000;
     if(totalStepCount == 0){
-        if(loading){
+        /*if(loading){
             fprintf(stderr,"\r");
         }else{
             loading = 1;
         }
         loadingCount++;
         loadingCount %= 4;
-        fprintf(stderr,"%c >%lu million graphs processed so far...",loadingAni[loadingCount],totalGraphMultiplier);
+        fprintf(stderr,"%c >%lu million graphs processed so far...",loadingAni[loadingCount],totalGraphMultiplier);*/
+        loading = 1;
+        fprintf(stderr,".");
     }
     xword x,d,dlow;
     xword *xset,*xcard,*xorb;
@@ -2054,6 +2063,11 @@ genextend(graph *g, int n, int *deg, int ne, boolean rigid, int xlb, int xub, in
                         totalGraphCount %= 1000000;
                         if(totalGraphCount == 0){
                             totalGraphMultiplier++;
+                            if(loading){
+                                loading = 0;
+                                fprintf(stderr,"\n");
+                            }
+                            fprintf(stderr,">%lu million graphs processed so far...\n",totalGraphMultiplier);
                         }
                         ++ecount[ne+xc];
                         (*outproc)(outfile,canonise ? gcan : gx,nx);
