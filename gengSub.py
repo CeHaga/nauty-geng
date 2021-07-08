@@ -6,7 +6,7 @@ n = 19
 minM = n+1
 maxM = 2*n-6
 distances = []
-numSteps = 2000
+numSteps = 1500
 foldersExtension = f'_n{n}_{numSteps}'
 
 for m in range(minM, maxM+1):

@@ -1,80 +1,80 @@
 Executable = geng
 Universe = vanilla
-Arguments = "-C 19 20 $(Step)/2000 -T1343"
-Output = out_n19_2000/19_20_$(Step).out
-Log = log_n19_2000/19_20_$(Step).log
-Error = err_n19_2000/19_20_$(Step).err
-Queue 2000
+Arguments = "-C 19 20 $(Step)/1500 -T1343"
+Output = out_n19_1500/19_20_$(Step).out
+Log = log_n19_1500/19_20_$(Step).log
+Error = err_n19_1500/19_20_$(Step).err
+Queue 1500
 
-Arguments = "-C 19 21 $(Step)/2000 -T1129"
-Output = out_n19_2000/19_21_$(Step).out
-Log = log_n19_2000/19_21_$(Step).log
-Error = err_n19_2000/19_21_$(Step).err
-Queue 2000
+Arguments = "-C 19 21 $(Step)/1500 -T1129"
+Output = out_n19_1500/19_21_$(Step).out
+Log = log_n19_1500/19_21_$(Step).log
+Error = err_n19_1500/19_21_$(Step).err
+Queue 1500
 
-Arguments = "-C 19 22 $(Step)/2000 -T991"
-Output = out_n19_2000/19_22_$(Step).out
-Log = log_n19_2000/19_22_$(Step).log
-Error = err_n19_2000/19_22_$(Step).err
-Queue 2000
+Arguments = "-C 19 22 $(Step)/1500 -T991"
+Output = out_n19_1500/19_22_$(Step).out
+Log = log_n19_1500/19_22_$(Step).log
+Error = err_n19_1500/19_22_$(Step).err
+Queue 1500
 
-Arguments = "-C 19 23 $(Step)/2000 -T899"
-Output = out_n19_2000/19_23_$(Step).out
-Log = log_n19_2000/19_23_$(Step).log
-Error = err_n19_2000/19_23_$(Step).err
-Queue 2000
+Arguments = "-C 19 23 $(Step)/1500 -T899"
+Output = out_n19_1500/19_23_$(Step).out
+Log = log_n19_1500/19_23_$(Step).log
+Error = err_n19_1500/19_23_$(Step).err
+Queue 1500
 
-Arguments = "-C 19 24 $(Step)/2000 -T829"
-Output = out_n19_2000/19_24_$(Step).out
-Log = log_n19_2000/19_24_$(Step).log
-Error = err_n19_2000/19_24_$(Step).err
-Queue 2000
+Arguments = "-C 19 24 $(Step)/1500 -T829"
+Output = out_n19_1500/19_24_$(Step).out
+Log = log_n19_1500/19_24_$(Step).log
+Error = err_n19_1500/19_24_$(Step).err
+Queue 1500
 
-Arguments = "-C 19 25 $(Step)/2000 -T779"
-Output = out_n19_2000/19_25_$(Step).out
-Log = log_n19_2000/19_25_$(Step).log
-Error = err_n19_2000/19_25_$(Step).err
-Queue 2000
+Arguments = "-C 19 25 $(Step)/1500 -T779"
+Output = out_n19_1500/19_25_$(Step).out
+Log = log_n19_1500/19_25_$(Step).log
+Error = err_n19_1500/19_25_$(Step).err
+Queue 1500
 
-Arguments = "-C 19 26 $(Step)/2000 -T743"
-Output = out_n19_2000/19_26_$(Step).out
-Log = log_n19_2000/19_26_$(Step).log
-Error = err_n19_2000/19_26_$(Step).err
-Queue 2000
+Arguments = "-C 19 26 $(Step)/1500 -T743"
+Output = out_n19_1500/19_26_$(Step).out
+Log = log_n19_1500/19_26_$(Step).log
+Error = err_n19_1500/19_26_$(Step).err
+Queue 1500
 
-Arguments = "-C 19 27 $(Step)/2000 -T713"
-Output = out_n19_2000/19_27_$(Step).out
-Log = log_n19_2000/19_27_$(Step).log
-Error = err_n19_2000/19_27_$(Step).err
-Queue 2000
+Arguments = "-C 19 27 $(Step)/1500 -T713"
+Output = out_n19_1500/19_27_$(Step).out
+Log = log_n19_1500/19_27_$(Step).log
+Error = err_n19_1500/19_27_$(Step).err
+Queue 1500
 
-Arguments = "-C 19 28 $(Step)/2000 -T687"
-Output = out_n19_2000/19_28_$(Step).out
-Log = log_n19_2000/19_28_$(Step).log
-Error = err_n19_2000/19_28_$(Step).err
-Queue 2000
+Arguments = "-C 19 28 $(Step)/1500 -T687"
+Output = out_n19_1500/19_28_$(Step).out
+Log = log_n19_1500/19_28_$(Step).log
+Error = err_n19_1500/19_28_$(Step).err
+Queue 1500
 
-Arguments = "-C 19 29 $(Step)/2000 -T665"
-Output = out_n19_2000/19_29_$(Step).out
-Log = log_n19_2000/19_29_$(Step).log
-Error = err_n19_2000/19_29_$(Step).err
-Queue 2000
+Arguments = "-C 19 29 $(Step)/1500 -T665"
+Output = out_n19_1500/19_29_$(Step).out
+Log = log_n19_1500/19_29_$(Step).log
+Error = err_n19_1500/19_29_$(Step).err
+Queue 1500
 
-Arguments = "-C 19 30 $(Step)/2000 -T647"
-Output = out_n19_2000/19_30_$(Step).out
-Log = log_n19_2000/19_30_$(Step).log
-Error = err_n19_2000/19_30_$(Step).err
-Queue 2000
+Arguments = "-C 19 30 $(Step)/1500 -T647"
+Output = out_n19_1500/19_30_$(Step).out
+Log = log_n19_1500/19_30_$(Step).log
+Error = err_n19_1500/19_30_$(Step).err
+Queue 1500
 
-Arguments = "-C 19 31 $(Step)/2000 -T633"
-Output = out_n19_2000/19_31_$(Step).out
-Log = log_n19_2000/19_31_$(Step).log
-Error = err_n19_2000/19_31_$(Step).err
-Queue 2000
+Arguments = "-C 19 31 $(Step)/1500 -T633"
+Output = out_n19_1500/19_31_$(Step).out
+Log = log_n19_1500/19_31_$(Step).log
+Error = err_n19_1500/19_31_$(Step).err
+Queue 1500
 
-Arguments = "-C 19 32 $(Step)/2000 -T623"
-Output = out_n19_2000/19_32_$(Step).out
-Log = log_n19_2000/19_32_$(Step).log
-Error = err_n19_2000/19_32_$(Step).err
-Queue 2000
+Arguments = "-C 19 32 $(Step)/1500 -T623"
+Output = out_n19_1500/19_32_$(Step).out
+Log = log_n19_1500/19_32_$(Step).log
+Error = err_n19_1500/19_32_$(Step).err
+Queue 1500
 
